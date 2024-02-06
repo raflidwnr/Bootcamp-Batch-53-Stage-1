@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    background-color: #dbdbdb;
+}
+
+/* navbar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #dbdbdb;
+    align-items: center;
+    padding: 0 80px;
+
+}
+
+nav {
+    background-color: white;
+}
+
+nav .left ul {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+nav .left ul img {
+    margin-right: 40px;
+}
+
+nav .left ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+nav .left ul .active a {
+    font-weight: bold;
+}
+
+nav .right a {
+    text-decoration: none;
+    background-color: black;
+    padding: 8 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+nav .left ul li {
+    list-style-type: none;
+    margin-right: 25px;
+}
+
+/* form submission */
+p {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    width: 350px;
+    margin: 50px auto;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #dbdbdb;
+    margin-top: 5px;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form div {
+    margin-top: 10px;
+}
+
+form div button {
+    background-color: black;
+    padding: 5px 30px;
+    border-style: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 240px;
+    margin-top: 20px;
+}
+
+ul img {
+    height: 50px;
+}
