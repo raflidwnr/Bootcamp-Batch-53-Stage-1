@@ -1,0 +1,66 @@
+<html>
+  <head>
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="left">
+        <ul>
+          <img src="./assets/image/dddd.png" alt="logo-image" />
+          <li class="active">
+            <a href="./index.html" target="_blank">Home</a>
+          </li>
+          <li>
+            <a href="./contact-me.html" target="_blank">My Project</a>
+          </li>
+        </ul>
+      </div>
+      <div class="right">
+        <a href="">Contact Me</a>
+      </div>
+    </nav>
+
+    <form>
+      <div>
+        <p>Silahkan Melengkapi Form Berikut</p>
+      </div>
+      <div>
+        <label>Name</label>
+        <input type="text" placeholder="" id="name" />
+      </div>
+
+      <div>
+        <label>Email</label>
+        <input type="text" placeholder="" id="email" />
+      </div>
+
+      <div>
+        <label>Phone Number</label>
+        <input type="text" placeholder="" id="phone" />
+      </div>
+
+      <div>
+        <label>Subject</label>
+        <select id="subject">
+          <option hidden>Select Please!</option>
+          <option>Frontend Developer</option>
+          <option>Backend Developer</option>
+          <option>Fullstack Developer</option>
+        </select>
+      </div>
+
+      <div>
+        <label>Your Message</label>
+        <textarea id="message"></textarea>
+      </div>
+
+      <div>
+        <button type="button" onclick="getData()">Submit</button>
+      </div>
+    </form>
+  </body>
+
+  <script src="./assets/js/script.js"></script>
+</html>
